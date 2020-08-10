@@ -1,3 +1,5 @@
+package Homework5;
+
 public class Parity {
     public static void main(String[] args) {
         int num = 13;
