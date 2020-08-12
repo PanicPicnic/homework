@@ -13,12 +13,17 @@ public class AdditionalTask {
     return sum;
     }
 
-    public static String reverse (String number) {
-        return new StringBuilder(number).reverse().toString();
+    public static void reverse (int number) {
+       int n=0;
+        while (number!=0){
+            n = number%10;
+            System.out.print(n+" ");
+            number = number/10;
+        }
     }
 
     public static void main(String[] args) {
 
-        System.out.println(sum(123456));
+        reverse(12345);
     }
     }
